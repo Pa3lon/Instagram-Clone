@@ -1,6 +1,5 @@
 import { Avatar } from "@material-ui/core";
-import React, { useEffect, useState } from "react";
-import IPost from "../interfaces/IPost";
+import React from "react";
 import "./Post.css";
 
 interface Props {
@@ -10,19 +9,6 @@ interface Props {
 }
 
 const Post = (props: Props) => {
-  const [posts, setPosts] = useState<IPost[]>([]);
-
-  useEffect(() => {
-    // API CALL
-    setPosts([
-      {
-        username: "Bob 1",
-        caption: "Hello world",
-        imageUrl: "https://reactjs.org/logo-og.png",
-      },
-    ]);
-  });
-
   return (
     <div className="post">
       <div className="post-header">
