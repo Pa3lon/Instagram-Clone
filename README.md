@@ -1,3 +1,9 @@
+## Goal
+
+- Building an Instagram clone from totorial: https://www.youtube.com/watch?v=f7T48W0cwXM&ab_channel=CleverProgrammer.
+
+- See how other programmers structure and develop their project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
