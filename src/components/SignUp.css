@@ -1,0 +1,20 @@
+.register-header {
+  text-align: center;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.register-form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  min-width: 250px;
+}
+
+.register-submit {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
